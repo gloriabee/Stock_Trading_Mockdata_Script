@@ -13,8 +13,8 @@ DRIVER={{{DRIVER_NAME}}};
 SERVER={SERVER_NAME};
 DATABASE={DATABASE_NAME};
 Trust_Connection=yes;
-uid=sa;
-pwd=admin123;
+uid=<username>;
+pwd=<password>;
 """
 
 conn = odbc.connect(connection_string)
